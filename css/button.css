@@ -1,0 +1,166 @@
+:root {
+	--small-dimension:  10vw;
+	--large-dimension: 6vw;
+}
+
+.button, .start-stop-button, .button-clearAll, .button-Instruction, .button-Instruction-small-screen{
+	display: block;
+	color:#FFF;
+	text-align: center;
+	box-shadow: 2px 2px 3px #999;
+	vertical-align: top;
+	cursor: default;
+}
+
+.button{
+	width:60px;
+	height:60px;
+  	line-height: 60px;
+	border-radius:50%;
+  	font-size: 13px;
+}
+
+.start-stop-button{
+	width:60px;
+	height:60px;
+	line-height: 85px;
+	border-radius:50%;
+	font-size: 13px;
+}
+
+.button-clearAll{
+	width:140px;
+	height:60px;
+	line-height: 60px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-Instruction{
+	width:140px;
+	height:140px;
+	line-height: 140px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-Instruction-small-screen{
+	width: 90vw;
+	height: 4vh;
+	line-height: 4vh;
+	border-radius:2%;
+	font-size: 15px;
+}
+
+.button-img{
+	width: auto;
+	height: 60px;
+	padding: 5px 5px 5px 5px;
+}
+
+.button-img-top{
+	width: auto;
+	height: 60px;
+	padding: 0px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 780px) {
+	.button, .start-stop-button, .button-clearAll, .button-Instruction{
+		display: block;
+		color:#FFF;
+		text-align: center;
+		box-shadow: 2px 2px 3px #999;
+		vertical-align: top;
+	}
+
+	.button{
+		width: var(--small-dimension);
+		height: var(--small-dimension);
+		line-height:  var(--small-dimension);
+		border-radius:50%;
+		font-size: 13px;
+	}
+
+	.start-stop-button, .button-clearAll{
+		width:  var(--small-dimension);
+		height:  var(--small-dimension);
+		line-height:  var(--small-dimension);
+		border-radius:50%;
+		font-size: 13px;
+	}
+
+	.button-img {
+		width: auto;
+		height:  var(--small-dimension);
+		padding: 1vw 1vw 1vw 1vw;
+	}
+
+	.button-img-top{
+		width: auto;
+		height:  var(--small-dimension);
+		padding: 0vw 1vw 1vw 1vw;
+	}
+}
+
+
+.button-img:hover{
+	opacity: 0.7;
+}
+
+.left-space{
+	margin-left: 10px !important;
+}
+
+.black-ball{
+  background-color:black;
+}
+
+.black-ball:hover{
+  background-color:#2A2A2A;
+}
+
+.white-ball{
+  background-color: white;
+  color: black;
+}
+
+.white-ball:hover{
+  background-color: #F5F5F5;
+}
+
+.reset{
+	background-color:#EE220C;
+}
+
+.reset:hover {
+  background-color: #A51808;
+}
+
+.start{
+  background-color: #7cfc00;
+  color: black;
+}
+
+.start:hover{
+  background-color: green;
+}
+
+.PETE{
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.instruction{
+	background-color: orange;
+	color: black;
+}
+
+.instruction:hover{
+	background-color: darkorange;
+}
+
+.toggleP{
+	font-size: 16px;
+}
